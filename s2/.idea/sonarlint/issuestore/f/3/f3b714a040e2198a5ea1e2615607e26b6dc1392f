@@ -1,0 +1,8 @@
+
+k
+java:S1201$"UEither override Object.equals(Object), or rename the method to prevent any confusion.(å„•
+\
+java:S1126%"AReplace this if-then-else statement by a single return statement.(í¶şÿÿÿÿ
+W
+java:S4973%"<Strings and Boxed types should be compared using "equals()".(í¶şÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(öØßĞúÿÿÿÿ
