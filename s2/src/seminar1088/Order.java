@@ -3,30 +3,30 @@ package seminar1088;
 import java.util.ArrayList;
 
 class Order {
-    private ArrayList<Product> l;
-    private String addr;
+    private ArrayList<Product> products;
+    private String adress;
 
     public Order() {
-        l = new ArrayList<Product>();
+        products = new ArrayList<Product>();
     }
 
     public void add(Product p) {
-        if (l.size() > 99)
+        if (products.size() > 99)
             return;
 
-        l.add(p);
+        products.add(p);
     }
 
     public void remove(Product p) {
-        l.remove(p);
+        products.remove(p);
     }
 
-    public String getAddr() {
-        return addr;
+    public String getAdress() {
+        return adress;
     }
 
-    public void setAddr(String addr) {
-        this.addr = addr;
+    public void setAdress(String adress) {
+        this.adress = adress;
     }
 }
 

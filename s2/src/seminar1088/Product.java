@@ -14,6 +14,7 @@ class Product {
 
     public Product(int id, String name, double price, String description) throws StringMinLength, InvalidPriceValueException {
         this.id = id;
+
         if (this.name.length() < 5) {
             throw new StringMinLength();
         } else {
@@ -79,4 +80,11 @@ class Product {
         this.price += increaseAmount;
     }
 
+    public void setName(String nameNew) throws StringMinLength {
+        if (nameNew.length() < 5) {
+            throw new StringMinLength();
+        } else {
+            this.name = nameNew;
+        }
+    }
 }
